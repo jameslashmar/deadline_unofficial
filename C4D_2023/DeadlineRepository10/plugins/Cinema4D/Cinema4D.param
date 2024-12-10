@@ -1,0 +1,189 @@
+[About]
+Type=label
+Label=About
+Category=About Plugin
+CategoryOrder=-1
+Index=0
+Default=Cinema 4D Plugin for Deadline
+Description=Not configurable
+
+[ConcurrentTasks]
+Type=label
+Label=ConcurrentTasks
+Category=About Plugin
+CategoryOrder=-1
+Index=0
+Default=True
+Description=Not configurable
+
+[C4D_12_RenderExecutable]
+Label=C4D 12 Executable
+Category=Render Executables
+CategoryOrder=0
+Index=3
+Type=multilinemultifilename
+Default=C:\Program Files\Maxon\CINEMA 4D R12\CINEMA 4D 64 Bit.exe;C:\Program Files\Maxon\CINEMA 4D R12\CINEMA 4D.exe;C:\Program Files (x86)\Maxon\CINEMA 4D R12\CINEMA 4D.exe;/Applications/MAXON/CINEMA 4D R12/CINEMA 4D.app/Contents/MacOS/CINEMA 4D
+Description=The path to the Cinema 4D executable file used for rendering. Enter alternative paths on separate lines.
+
+[C4D_13_RenderExecutable]
+Label=C4D 13 Executable
+Category=Render Executables
+CategoryOrder=0
+Index=4
+Type=multilinemultifilename
+Default=C:\Program Files\Maxon\CINEMA 4D R13\CINEMA 4D 64 Bit.exe;C:\Program Files\Maxon\CINEMA 4D R13\CINEMA 4D.exe;C:\Program Files (x86)\Maxon\CINEMA 4D R13\CINEMA 4D.exe;/Applications/MAXON/CINEMA 4D R13/CINEMA 4D.app/Contents/MacOS/CINEMA 4D
+Description=The path to the Cinema 4D executable file used for rendering. Enter alternative paths on separate lines.
+
+[C4D_14_RenderExecutable]
+Label=C4D 14 Executable
+Category=Render Executables
+CategoryOrder=0
+Index=5
+Type=multilinemultifilename
+Default=C:\Program Files\Maxon\CINEMA 4D R14\CINEMA 4D 64 Bit.exe;C:\Program Files\Maxon\CINEMA 4D R14\CINEMA 4D.exe;C:\Program Files (x86)\Maxon\CINEMA 4D R14\CINEMA 4D.exe;/Applications/MAXON/CINEMA 4D R14/CINEMA 4D.app/Contents/MacOS/CINEMA 4D
+Description=The path to the Cinema 4D executable file used for rendering. Enter alternative paths on separate lines.
+
+[C4D_15_RenderExecutable]
+Label=C4D 15 Executable
+Category=Render Executables
+CategoryOrder=0
+Index=6
+Type=multilinemultifilename
+Default=C:\Program Files\Maxon\CINEMA 4D R15\CINEMA 4D 64 Bit.exe;C:\Program Files\Maxon\CINEMA 4D R15\CINEMA 4D.exe;C:\Program Files (x86)\Maxon\CINEMA 4D R15\CINEMA 4D.exe;/Applications/MAXON/CINEMA 4D R15/CINEMA 4D.app/Contents/MacOS/CINEMA 4D
+Description=The path to the Cinema 4D executable file used for rendering. Enter alternative paths on separate lines.
+
+[C4D_16_RenderExecutable]
+Label=C4D 16 Executable
+Category=Render Executables
+CategoryOrder=0
+Index=7
+Type=multilinemultifilename
+Default=C:\Program Files\MAXON\CINEMA 4D R16\Commandline.exe;/Applications/MAXON/CINEMA 4D R16/Commandline.app/Contents/MacOS/Commandline;C:\Program Files\Maxon\CINEMA 4D R16\CINEMA 4D 64 Bit.exe;C:\Program Files\Maxon\CINEMA 4D R16\CINEMA 4D.exe;C:\Program Files (x86)\Maxon\CINEMA 4D R16\CINEMA 4D.exe;/Applications/MAXON/CINEMA 4D R16/CINEMA 4D.app/Contents/MacOS/CINEMA 4D
+Description=The path to the Cinema 4D executable file used for rendering. Enter alternative paths on separate lines.
+
+[C4D_17_RenderExecutable]
+Label=C4D 17 Executable
+Category=Render Executables
+CategoryOrder=0
+Index=8
+Type=multilinemultifilename
+Default=C:\Program Files\MAXON\CINEMA 4D R17\Commandline.exe;/Applications/MAXON/CINEMA 4D R17/Commandline.app/Contents/MacOS/Commandline;C:\Program Files\Maxon\CINEMA 4D R17\CINEMA 4D 64 Bit.exe;C:\Program Files\Maxon\CINEMA 4D R17\CINEMA 4D.exe;C:\Program Files (x86)\Maxon\CINEMA 4D R17\CINEMA 4D.exe;/Applications/MAXON/CINEMA 4D R17/CINEMA 4D.app/Contents/MacOS/CINEMA 4D
+Description=The path to the Cinema 4D executable file used for rendering. Enter alternative paths on separate lines.
+
+[C4D_18_RenderExecutable]
+Label=C4D 18 Executable
+Category=Render Executables
+CategoryOrder=0
+Index=9
+Type=multilinemultifilename
+Default=C:\Program Files\MAXON\CINEMA 4D R18\Commandline.exe;/Applications/MAXON/CINEMA 4D R18/Commandline.app/Contents/MacOS/Commandline;C:\Program Files\Maxon\CINEMA 4D R18\CINEMA 4D 64 Bit.exe;C:\Program Files\Maxon\CINEMA 4D R18\CINEMA 4D.exe;C:\Program Files (x86)\Maxon\CINEMA 4D R18\CINEMA 4D.exe;/Applications/MAXON/CINEMA 4D R18/CINEMA 4D.app/Contents/MacOS/CINEMA 4D
+Description=The path to the Cinema 4D executable file used for rendering. Enter alternative paths on separate lines.
+
+[C4D_19_RenderExecutable]
+Label=C4D 19 Executable
+Category=Render Executables
+CategoryOrder=0
+Index=10
+Type=multilinemultifilename
+Default=C:\Program Files\MAXON\CINEMA 4D R19\Commandline.exe;/Applications/MAXON/CINEMA 4D R19/Commandline.app/Contents/MacOS/Commandline;C:\Program Files\Maxon\CINEMA 4D R19\CINEMA 4D 64 Bit.exe;C:\Program Files\Maxon\CINEMA 4D R19\CINEMA 4D.exe;C:\Program Files (x86)\Maxon\CINEMA 4D R19\CINEMA 4D.exe;/Applications/MAXON/CINEMA 4D R19/CINEMA 4D.app/Contents/MacOS/CINEMA 4D;/opt/maxon/cinema4d/19.000/bin/c4d_clr
+Description=The path to the Cinema 4D executable file used for rendering. Enter alternative paths on separate lines.
+
+[C4D_20_RenderExecutable]
+Label=C4D 20 Executable
+Category=Render Executables
+CategoryOrder=0
+Index=11
+Type=multilinemultifilename
+Default=C:\Program Files\MAXON\CINEMA 4D R20\Commandline.exe;/Applications/MAXON/CINEMA 4D R20/Commandline.app/Contents/MacOS/Commandline;C:\Program Files\Maxon\CINEMA 4D R20\CINEMA 4D 64 Bit.exe;C:\Program Files\Maxon\CINEMA 4D R20\CINEMA 4D.exe;C:\Program Files (x86)\Maxon\CINEMA 4D R20\CINEMA 4D.exe;/Applications/MAXON/CINEMA 4D R20/CINEMA 4D.app/Contents/MacOS/CINEMA 4D;/opt/maxon/cinema4d/20.000/bin/c4d_clr
+Description=The path to the Cinema 4D executable file used for rendering. Enter alternative paths on separate lines.
+
+[C4D_21_RenderExecutable]
+Label=C4D 21 Executable
+Category=Render Executables
+CategoryOrder=0
+Index=12
+Type=multilinemultifilename
+Default=C:\Program Files\Maxon Cinema 4D R21\Commandline.exe;/Applications/MAXON CINEMA 4D R21/Commandline.app/Contents/MacOS/Commandline;C:\Program Files\Maxon CINEMA 4D R21\CINEMA 4D.exe;/Applications/MAXON CINEMA 4D R21/CINEMA 4D.app/Contents/MacOS/CINEMA 4D;/opt/maxon/cinema4d/21.026/bin/c4d_clr
+Description=The path to the Cinema 4D executable file used for rendering. Enter alternative paths on separate lines.
+
+[C4D_22_RenderExecutable]
+Label=C4D 22 Executable
+Category=Render Executables
+CategoryOrder=0
+Index=13
+Type=multilinemultifilename
+Default=C:\Program Files\Maxon Cinema 4D R22\Commandline.exe;/Applications/MAXON CINEMA 4D R22/Commandline.app/Contents/MacOS/Commandline;C:\Program Files\Maxon CINEMA 4D R22\CINEMA 4D.exe;/Applications/MAXON CINEMA 4D R22/CINEMA 4D.app/Contents/MacOS/CINEMA 4D
+Description=The path to the Cinema 4D executable file used for rendering. Enter alternative paths on separate lines.
+
+[C4D_23_RenderExecutable]
+Label=C4D 23 Executable
+Category=Render Executables
+CategoryOrder=0
+Index=14
+Type=multilinemultifilename
+Default=C:\Program Files\Maxon Cinema 4D R23\Commandline.exe;/Applications/MAXON CINEMA 4D R23/Commandline.app/Contents/MacOS/Commandline;C:\Program Files\Maxon CINEMA 4D R23\CINEMA 4D.exe;/Applications/MAXON CINEMA 4D R23/CINEMA 4D.app/Contents/MacOS/CINEMA 4D
+Description=The path to the Cinema 4D executable file used for rendering. Enter alternative paths on separate lines.
+
+[C4D_24_RenderExecutable]
+Label=C4D 24 Executable
+Category=Render Executables
+CategoryOrder=0
+Index=15
+Type=multilinemultifilename
+Default=C:\Program Files\Maxon Cinema 4D R24\Commandline.exe;/Applications/MAXON CINEMA 4D R24/Commandline.app/Contents/MacOS/Commandline;C:\Program Files\Maxon CINEMA 4D R24\CINEMA 4D.exe;/Applications/MAXON CINEMA 4D R24/CINEMA 4D.app/Contents/MacOS/CINEMA 4D
+Description=The path to the Cinema 4D executable file used for rendering. Enter alternative paths on separate lines.
+
+[C4D_25_RenderExecutable]
+Label=C4D 25 Executable
+Category=Render Executables
+CategoryOrder=0
+Index=16
+Type=multilinemultifilename
+Default=C:\Program Files\Maxon Cinema 4D R25\Commandline.exe;/Applications/MAXON CINEMA 4D R25/Commandline.app/Contents/MacOS/Commandline;C:\Program Files\Maxon CINEMA 4D R25\CINEMA 4D.exe;/Applications/MAXON CINEMA 4D R25/CINEMA 4D.app/Contents/MacOS/CINEMA 4D
+Description=The path to the Cinema 4D executable file used for rendering. Enter alternative paths on separate lines.
+
+[C4D_26_RenderExecutable]
+Label=C4D 26 Executable
+Category=Render Executables
+CategoryOrder=0
+Index=17
+Type=multilinemultifilename
+Default=C:\Program Files\Maxon Cinema 4D R26\Commandline.exe;/Applications/MAXON CINEMA 4D R26/Commandline.app/Contents/MacOS/Commandline;C:\Program Files\Maxon CINEMA 4D R26\CINEMA 4D.exe;/Applications/MAXON CINEMA 4D R26/CINEMA 4D.app/Contents/MacOS/CINEMA 4D
+Description=The path to the Cinema 4D executable file used for rendering. Enter alternative paths on separate lines.
+
+[C4D_2023_RenderExecutable]
+Label=C4D 2023 Executable
+Category=Render Executables
+CategoryOrder=0
+Index=18
+Type=multilinemultifilename
+Default=C:\Program Files\Maxon Cinema 4D 2023\Commandline.exe;/Applications/MAXON CINEMA 4D 2023/Commandline.app/Contents/MacOS/Commandline;C:\Program Files\Maxon CINEMA 4D 2023\CINEMA 4D.exe;/Applications/MAXON CINEMA 4D 2023/CINEMA 4D.app/Contents/MacOS/CINEMA 4D
+Description=The path to the Cinema 4D executable file used for rendering. Enter alternative paths on separate lines.
+
+[SetLinuxEnvironment]
+Label=Set Linux Environment
+Category=Linux Settings
+CategoryOrder=1
+Index=0
+Type=boolean
+Default=True
+Description=Allow Deadline to set the LD_LIBRARY_PATH and PYTHONPATH environment variables on Linux machines in order to have C4D be able to access the necessary libraries.
+
+[RedshiftLogging]
+Type=enum
+Category=Logging
+Label=Redshift Log Verbosity
+CategoryOrder=2
+Index=0
+Items=Error;Warning;Info;Detailed;Debug;DebugVerbose;Max;None
+Description=Set verbosity level for Redshift logs
+Default=Debug
+
+[AbortOnArnoldLicenseFail]
+Type=boolean
+Category=Arnold Options
+CategoryOrder=3
+Index=0
+Label=Abort On Arnold License Fail
+Default=true
+Description=If enabled, the render will fail if Arnold cannot get a license. If disabled, Arnold will render with a watermark if it cannot get a license (Only applies when Arnold is the Renderer).
