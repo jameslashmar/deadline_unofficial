@@ -8,8 +8,6 @@ We may expand to include Houdini etc, but it is out of scope for the time being.
 
 Simply copy the deadline folder for your C4D version and paste it over the top of the files in your repo. Done.
 
-Simply copy the files over from the Dropbox .zip  below to your repo
-
 Associated Docs
 Deadline support 2023.xx Submitter Fix
 https://forums.thinkboxsoftware.com/t/cinema4d-2023-support/29670/8
