@@ -1,0 +1,23 @@
+Script updates done by Toms Seglins @tomsvfx
+
+Based on Deadline 10.4.2.2 version
+
+#########################################################
+
+
+Install as usual:
+Copy DeadlineRepository10 folder over the the repository root folder of the same name.
+
+#########################################################
+
+For Cinema4D:
+
+Manually add the C4D plugin launcher DeadlineC4DClient.pyp:
+
+From
+DeadlineRepository10\submission\Cinema4D\Client
+To:
+C:\Program Files\Maxon Cinema 4D 2026\plugins
+
+
+
