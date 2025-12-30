@@ -19,7 +19,7 @@ If you would like to install a basic Deadline Monitor on your Android, we now pr
 
 To install this you will need to use ADB.  The quickest way to do this without the AndroidSDK (on Windows) is to use the super simple Universal ADB drivers, available from https://adb.clockworkmod.com/
 
-Enable developer options on your android, disable both "verify apps over USB" and "verify bytecode of debuggable apps".
+Enable developer options on your android, disable both ```verify apps over USB``` and ```verify bytecode of debuggable apps```.
 
 Once your phone is connected, tap the charging notification that says ```charging this device via usb```, then change the setting to ```file transfer/android auto```. You will need to reboot your phone if you are enabling developer options for the first time.  Then when you reconnect, you should be able to approve the ADB connection via the phone, with a checkbox to always accept your PC.
 
