@@ -287,6 +287,23 @@ class Cinema4DController( object ):
 
         parameterString = " ".join(parameters)
         self.Plugin.LogInfo( "Parameters: %s" % parameterString )
+
+        # Luke Letellier - Clay Render Fix
+        # Stagger startup based on GPU ID to avoid Redshift file access conflicts.
+        gpusPerTask = self.Plugin.GetIntegerPluginInfoEntryWithDefault( "GPUsPerTask", 0 )
+        if gpusPerTask > 0:
+            # When GPUsPerTask is used, GetThreadNumber() corresponds to the task ID, which we can use
+            # as a stand-in for the GPU ordinal to calculate a unique delay.
+            gpuOrdinal = self.Plugin.GetThreadNumber()
+            delay = gpuOrdinal * 2  # 2-second delay increment per GPU.
+            
+            if delay > 0:
+                self.Plugin.LogInfo( "Clay-render fix: Startup is delayed by %d seconds for GPU ordinal %d to avoid file access conflicts." % (delay, gpuOrdinal) )
+                time.sleep( delay )
+            else:
+                self.Plugin.LogInfo( "Clay-render fix: Startup is not delayed on this task, as this is GPU 0 (or all GPUs are rendering together). The code is still working." )
+        # END OF FIX - Clay render fix
+
         self.LaunchCinema4D( self.Cinema4DRenderExecutable, parameterString, os.path.dirname( self.Cinema4DRenderExecutable ) )
         self.WaitForConnection( "Cinema 4D startup" )
         self.Plugin.LogInfo( "Connected to Cinema 4D" )
@@ -527,6 +544,12 @@ class Cinema4DController( object ):
                 deadlineC4DThreadScript.append( "        self.renderData[c4d.RDATA_FRAMEFROM]=c4d.BaseTime(" + str(self.StartFrame ) + ", fps)" )
                 deadlineC4DThreadScript.append( "        self.renderData[c4d.RDATA_FRAMETO]=c4d.BaseTime(" + str( self.EndFrame ) + ", fps)" )
                 deadlineC4DThreadScript.append( "        self.renderData[c4d.RDATA_FRAMESTEP]=1")
+
+                # --- Luke Letellier fix: Disable double gamma transform when using 'Bake View Transform' ---
+                # This is specifically for C4D 2025/2026+
+                deadlineC4DThreadScript.append( "        if hasattr(c4d, 'RDATA_BAKE_OCIO_VIEW_TRANSFORM_RENDER'):" )
+                deadlineC4DThreadScript.append( "            self.renderData[c4d.RDATA_BAKE_OCIO_VIEW_TRANSFORM_RENDER] = False" )
+                # ---END OF FIX --------------------------------------------------
 
                 # Set AbortOnLicenseFail value to Arnold settings
                 deadlineC4DThreadScript.append( "        arnoldRenderSettings = self.GetArnoldRenderSettings(self.deadlineDoc)")
