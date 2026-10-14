@@ -12,6 +12,29 @@ We may expand to include Houdini etc, but it is out of scope for the time being.
 
 Simply copy the deadline folder for your C4D version and paste it over the top of the files in your repo.
 
+## Supported versions
+
+| Folder | Cinema 4D | Notes |
+|---|---|---|
+| `C4D_2023` | 2023.x | |
+| `C4D_2024` | 2024.x | |
+| `C4D_2025.1.0` | 2025.x | |
+| `C4D_2026` | 2026.x | Based on Deadline 10.4.2.2. Clay render / bake view transform fixes |
+| `C4D_2027` | 2027.x | As 2026, plus 2027 render executables and a submitter with a menu icon |
+
+Each folder's `info.txt` has version-specific install notes.
+
+## C4D submitter client (2026+)
+
+From 2026 the C4D side needs the `DeadlineC4DClient.pyp` launcher copied manually from
+`DeadlineRepository10\submission\Cinema4D\Client` into your Cinema 4D `plugins` folder
+(e.g. `C:\Program Files\Maxon Cinema 4D 2027\plugins`, admin rights required).
+
+In `C4D_2027` the launcher also gives the **Submit To Deadline** command an icon. Copy
+`Thinkbox-Deadline-01.png` into the same `plugins` folder alongside the `.pyp`. If the icon
+is missing the submitter still loads, just without the icon. Any load problems are logged to
+`DeadlineC4DClient_error.log` next to the plugin.
+
 
 ## Android Deadline App Install
 
