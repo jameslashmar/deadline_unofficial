@@ -35,6 +35,17 @@ In `C4D_2027` the launcher also gives the **Submit To Deadline** command an icon
 is missing the submitter still loads, just without the icon. Any load problems are logged to
 `DeadlineC4DClient_error.log` next to the plugin.
 
+The launcher is the only file installed on each workstation; the submitter itself is zero
+install. Each time Cinema 4D starts, the launcher asks `deadlinecommand` for the repository path
+and loads `SubmitC4DToDeadline.py` from `submission/Cinema4D/Main` in the repository. So:
+
+- Updates to `SubmitC4DToDeadline.py` in the repository reach every workstation at the next C4D
+  restart, with nothing to reinstall.
+- Changes to the launcher (`DeadlineC4DClient.pyp`) or its icon do need copying to each
+  workstation again.
+- `deadlinecommand` must be findable through `DEADLINE_PATH` or `PATH` (a normal Deadline client
+  install sets this). If it isn't, the submitter won't load and the error log says why.
+
 
 ## Android Deadline App Install
 
