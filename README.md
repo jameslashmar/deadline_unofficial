@@ -55,6 +55,12 @@ Now you can sideload the app using this command:
 
 
 
+## Guides and resources
+
+The guides from the old Notion wiki now live in [`docs/`](docs/README.md): patching each C4D
+submitter, forcing command-line licences, rendering a frame per GPU, usage-based licensing
+(UBL), After Effects farm settings and the Unreal Engine 5.3 submitter.
+
 ## Associated Docs
 Deadline support 2023.xx Submitter Fix
 
